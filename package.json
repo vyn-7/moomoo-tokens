@@ -1,0 +1,19 @@
+{
+  "name": "moomoo-tokens",
+  "version": "0.0",
+  "description": "A simple project that generates MooMoo.io CAPTCHA tokens",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^18.13.0",
+    "puppeteer": "^5.4.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "license": "ISC",
+  "keywords": []
+}
