@@ -11,7 +11,7 @@ server.get("/token", async (request, response) => {
 
 server.get("/status", async (request, response) => {
   if (puppeteer.browser === null || puppeteer.page === null) {
-    response.send("Browser didn't launched yet.");
+    response.send("Browser didn't launch yet.");
   } else {
     if (puppeteer.loaded) response.send("Browser is loaded.");
     else response.send("Browser isn't loaded.");
